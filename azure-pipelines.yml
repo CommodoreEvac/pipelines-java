@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool: 
-  name: ADO_Agent
+  name: Default
 
 steps:
 - task: Maven@3
