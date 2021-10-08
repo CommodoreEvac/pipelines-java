@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: ADO_Agent
+pool: 
+  name: ADO_Agent
 
 steps:
 - task: Maven@3
